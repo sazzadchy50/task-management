@@ -1,7 +1,7 @@
 
 import { Navbar } from 'flowbite-react';
 import logo from '../../assets/logo.png'
-import { NavLink } from 'react-router-dom';
+
 
 
 
@@ -10,7 +10,7 @@ const Menubar = () => {
         <Navbar fluid rounded className='container mx-auto'>
       <Navbar.Brand >
       <img className='w-14' src={logo} alt="" />
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white italic"> Management</span>
+        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white italic">Task Manager</span>
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
