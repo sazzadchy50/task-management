@@ -99,6 +99,14 @@ const DashboardLayout = () => {
                       Add Task
                     </NavLink>
                   </li>
+
+                  <div className="divider"></div>
+                <li>
+                  <NavLink to="/">
+                    <FaHome />
+                    Home
+                  </NavLink>
+                </li>
                 </ul>
               </>
             )}
