@@ -1,15 +1,7 @@
 import { useEffect, useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import ClockLoader from "react-spinners/ClockLoader";
-import {
-  FaHandHoldingMedical,
-  FaHome,
-  FaList,
-  FaRegAddressBook,
-  FaRegListAlt,
-  FaStar,
-  FaUser,
-} from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
 import Dashboard from "../Dashboard/Dashboard";
 const loading = false;
 
@@ -102,9 +94,9 @@ const DashboardLayout = () => {
               <>
                 <ul>
                   <li>
-                    <NavLink to="/dashboard/participant-profile">
+                    <NavLink to="/dashboard/add-task">
                       <FaUser />
-                      Participant Profile Management
+                      Add Task
                     </NavLink>
                   </li>
                 </ul>
