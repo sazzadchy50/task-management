@@ -5,6 +5,7 @@ import Home from "../Page/Home/Home";
 import Dashboard from "../Dashboard/Dashboard";
 import DashboardLayout from "../Layout/DashboardLayout";
 import AddTask from "../Dashboard/AddTask";
+import PreviousTask from "../Dashboard/PreviousTask/PreviousTask";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
         path: "/dashboard/add-task",
         element: <AddTask />,
       },
+      {
+        path: "/dashboard/previous-task",
+        element: <PreviousTask/>
+      }
     ],
   },
   {},

@@ -4,6 +4,8 @@ import ClockLoader from "react-spinners/ClockLoader";
 import { FaUser } from "react-icons/fa";
 import Dashboard from "../Dashboard/Dashboard";
 const loading = false;
+import { FaHome ,FaTasks  } from "react-icons/fa";
+import { MdAddTask } from "react-icons/md";
 
 // import useUserRole from "../Hook/useUserRole";
 
@@ -95,8 +97,14 @@ const DashboardLayout = () => {
                 <ul>
                   <li>
                     <NavLink to="/dashboard/add-task">
-                      <FaUser />
+                      <MdAddTask />
                       Add Task
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/dashboard/previous-task">
+                      <FaTasks />
+                      Previous Tasks
                     </NavLink>
                   </li>
 
