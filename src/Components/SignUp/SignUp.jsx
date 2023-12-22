@@ -47,7 +47,7 @@ const SignUp = () => {
             };
             console.log(userInfo);
 
-            // axios.post("http://localhost:5000/api/v1/users", userInfo)
+            // axios.post("https://task-management-server-psi-hazel.vercel.app/api/v1/users", userInfo)
 
             // await publicApi.post("/users", userInfo, {
             //   headers: {
@@ -152,7 +152,7 @@ const SignUp = () => {
                   {...register("role", { required: true })}
                   className="select select-bordered"
                 >
-                  <option disabled selected >
+                  <option disabled selected>
                     Role
                   </option>
                   <option value="banker">Banker</option>

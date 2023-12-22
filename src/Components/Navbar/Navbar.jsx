@@ -20,8 +20,7 @@ const Menubar = () => {
         </Navbar.Link>
         <Navbar.Link href="/dashboard">Dashboard</Navbar.Link>
         <Navbar.Link href="/login">Login</Navbar.Link>
-        <Navbar.Link href="#">Pricing</Navbar.Link>
-        <Navbar.Link href="#">Contact</Navbar.Link>
+
       </Navbar.Collapse>
     </Navbar>
     );
